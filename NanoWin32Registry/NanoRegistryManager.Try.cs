@@ -204,7 +204,7 @@ public static partial class NanoRegistryManager
     {
         IntPtr hKey = GetRegistryRootKeyFromFullPath(path, out string subKey);
         int result = MsWinCoreRegistry.RegOpenKeyExW(hKey, subKey, 0, KeyAccess.KEY_READ, out IntPtr phkResult);
-        if ( result != 0)
+        if (result != 0)
         {
             value = null;
             return false;
