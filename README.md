@@ -1,0 +1,1 @@
+# NanoWin32Registry
