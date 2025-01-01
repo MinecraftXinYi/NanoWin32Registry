@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Product>NanoWin32Registry</Product>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <RootNamespace>NanoWin32Registry</RootNamespace>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ProductVersion>1.0.0.0</ProductVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <CheckNotRecommendedTargetFramework>false</CheckNotRecommendedTargetFramework>
+    <NoWarn>$(NoWarn);NETSDK1215</NoWarn>
+  </PropertyGroup>
+
+</Project>
